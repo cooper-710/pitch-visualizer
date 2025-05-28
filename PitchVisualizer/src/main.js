@@ -1,7 +1,7 @@
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.148.0/build/three.module.js';
 
 async function loadPitchData() {
-  const res = await fetch('src/assets/pitch_data.json');
+  const res = await fetch('./pitch_data.json');
   return await res.json();
 }
 
